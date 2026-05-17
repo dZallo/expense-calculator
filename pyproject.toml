@@ -1,0 +1,14 @@
+[project]
+name = "excel-processor"
+version = "0.1.0"
+description = "Procesador de archivos Excel"
+readme = "README.md"
+requires-python = ">=3.13"
+
+dependencies = [
+    "pandas",
+    "openpyxl"
+]
+
+[project.scripts]
+excel-processor = "excel_processor.main:main"
